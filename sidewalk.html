@@ -59,7 +59,9 @@
 
         iframe {
             width: 100%;
-            height: 35rem;
+            height: 500px;
+            box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+            border-radius: 4px;
         }
     </style>
 </head>
@@ -76,11 +78,11 @@
             <div class="collapse navbar-collapse justify-content-start" id="bannertoggle">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="index.html">
+                        <a class="nav-link text-white-50" href="index.html">
                             Resume </a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-white-50" role="button" data-bs-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle text-light" role="button" data-bs-toggle="dropdown">
                             Projects </a>
                         <ul class="dropdown-menu bg-dark">
                             <li><a class="dropdown-item text-white-50" href="overview.html"> Overview </a>
@@ -89,7 +91,7 @@
                             </li>
                             <li><a class="dropdown-item text-white-50" href="trends.html"> Conditions & Trends </a>
                             </li>
-                            <li><a class="dropdown-item text-white-50" href="sidewalk.html"> Sidewalk Width </a>
+                            <li><a class="dropdown-item text-light" href="sidewalk.html"> Sidewalk Width </a>
                             </li>
                             <li><a class="dropdown-item text-white-50" href="parking.html"> On-Street Parking </a>
                             </li>
@@ -117,8 +119,11 @@
                     culpa qui officia deserunt mollit anim id est laborum.
                 </p>
             </div>
-            <div class="col-12">
-                <iframe src="" allowfullscreen></iframe>
+            <div class="col-10">
+                <iframe
+                    src="https://nycplanning.carto.com/u/dcptransportation/builder/b73f1c31-9847-4b17-a827-4e0038935d69/embed"
+                    allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen
+                    msallowfullscreen></iframe>
             </div>
         </div>
     </div>
