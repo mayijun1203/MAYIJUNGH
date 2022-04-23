@@ -56,9 +56,13 @@
             z-index: -1000;
         }
 
-        iframe {
+        .card-body>b>a {
+            color: #212529;
+            text-decoration: none;
+        }
+
+        img {
             width: 100%;
-            height: 35rem;
         }
     </style>
 </head>
@@ -75,14 +79,14 @@
             <div class="collapse navbar-collapse justify-content-start" id="bannertoggle">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="index.html">
+                        <a class="nav-link text-white-50" href="index.html">
                             Resume </a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-white-50" role="button" data-bs-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle text-light" role="button" data-bs-toggle="dropdown">
                             Projects </a>
                         <ul class="dropdown-menu bg-dark">
-                            <li><a class="dropdown-item text-white-50" href="overview.html"> Overview </a>
+                            <li><a class="dropdown-item text-light" href="overview.html"> Overview </a>
                             </li>
                             <li><a class="dropdown-item text-white-50" href="travelshed.html"> Transit Travelshed </a>
                             </li>
@@ -112,8 +116,23 @@
                     culpa qui officia deserunt mollit anim id est laborum.
                 </p>
             </div>
-            <div class="col-12">
-                <iframe src="" allowfullscreen></iframe>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-2">
+                <div class="card bg-light">
+                    <a href="travelshed.html"><img src="travelshed.png"></a>
+                    <div class="card-body">
+                        <b><a href="travelshed.html"> Transit Travelshed </a></b>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card bg-light">
+                    <a href="trends.html"><img src="trends.png"></a>
+                    <div class="card-body">
+                        <b><a href="trends.html"> Conditions & Trends </a></b>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
