@@ -65,6 +65,14 @@
             z-index: -1000;
         }
 
+        h1 {
+            display: inline-block;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-top: 0;
+            margin-bottom: 1rem;
+        }
+
         .card {
             margin-top: 1rem;
         }
@@ -107,18 +115,20 @@
                         <ul class="dropdown-menu bg-dark">
                             <li><a class="dropdown-item text-light" href="overview.html"> Overview 概览</a>
                             </li>
-                            <li><a class="dropdown-item text-white-50" href="travelshed.html"> Transit
-                                    Travelshed 公交可达性
-                                </a>
+                            <li><a class="dropdown-item text-white-50" href="travelshed.html"> Transit Travelshed Model
+                                    公交可达性模型 </a>
                             </li>
                             <li><a class="dropdown-item text-white-50" href="trends.html"> Conditions & Trends Report
-                                    现状与趋势报告
-                                </a>
+                                    交通现状与趋势报告 </a>
                             </li>
-                            <li><a class="dropdown-item text-white-50" href="sidewalk.html"> Sidewalk Width 人行道宽度</a>
+                            <li><a class="dropdown-item text-white-50" href="sidewalk.html"> Sidewalk Width Analysis
+                                    人行道宽度分析 </a>
                             </li>
-                            <li><a class="dropdown-item text-white-50" href="parking.html"> On-Street Parking 沿街停车
-                                </a>
+                            <li><a class="dropdown-item text-white-50" href="openres.html"> Open Restaurant Analysis
+                                    户外餐厅分析 </a>
+                            </li>
+                            <li><a class="dropdown-item text-white-50" href="parking.html"> On-Street Parking Estimate
+                                    沿街停车位估算 </a>
                             </li>
                             <li><a class="dropdown-item text-white-50" href="#">Engineering</a></li>
                         </ul>
@@ -135,12 +145,12 @@
                             <i class="fa-solid fa-envelope"></i> </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/mayijun1203" target="_blank">
-                            <i class="fa-brands fa-github"></i> </a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="https://www.linkedin.com/in/yijun-ma-11512392/" target="_blank">
                             <i class="fa-brands fa-linkedin"></i> </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/mayijun1203" target="_blank">
+                            <i class="fa-brands fa-github"></i> </a>
                     </li>
                 </ul>
             </div>
@@ -149,6 +159,9 @@
 
     <div class="container-fluid g-0" id="main">
         <div class="row justify-content-start">
+            <div class="col-12">
+                <h1> Overview 概览 </h1>
+            </div>
             <div class="col-12">
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
@@ -162,7 +175,7 @@
                 <div class="card bg-light">
                     <a href="travelshed.html"><img src="travelshed.png"></a>
                     <div class="card-body">
-                        <b><a href="travelshed.html"> Transit Travelshed <br> 公交可达性 </a></b>
+                        <b><a href="travelshed.html"> Transit Travelshed Model <br> 公交可达性模型 </a></b>
                     </div>
                 </div>
             </div>
@@ -170,7 +183,7 @@
                 <div class="card bg-light">
                     <a href="trends.html"><img src="trends.png"></a>
                     <div class="card-body">
-                        <b><a href="trends.html"> Conditions & Trends Report <br> 现状与趋势报告 </a></b>
+                        <b><a href="trends.html"> Conditions & Trends Report <br> 交通现状与趋势报告 </a></b>
                     </div>
                 </div>
             </div>
@@ -178,7 +191,15 @@
                 <div class="card bg-light">
                     <a href="sidewalk.html"><img src="sidewalk.png"></a>
                     <div class="card-body">
-                        <b><a href="sidewalk.html"> Sidewalk Width </a></b>
+                        <b><a href="sidewalk.html"> Sidewalk Width Analysis <br> 人行道宽度分析 </a></b>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="card bg-light">
+                    <a href="openres.html"><img src="openres.png"></a>
+                    <div class="card-body">
+                        <b><a href="openres.html"> Open Restaurant Analysis <br> 户外餐厅分析 </a></b>
                     </div>
                 </div>
             </div>
@@ -186,7 +207,7 @@
                 <div class="card bg-light">
                     <a href="parking.html"><img src="parking.png"></a>
                     <div class="card-body">
-                        <b><a href="parking.html"> On-Street Parking </a></b>
+                        <b><a href="parking.html"> On-Street Parking Estimate <br> 沿街停车位估算 </a></b>
                     </div>
                 </div>
             </div>
